@@ -10,7 +10,7 @@ import { ProdutosRoutingModule } from "./produtos.routing";
 
     declarations: [
         CadastroProdutoComponent,
-        ListaProdutosComponent
+        ListaProdutosComponent,
     ],
     imports: [
         CommonModule,
@@ -21,4 +21,4 @@ import { ProdutosRoutingModule } from "./produtos.routing";
     exports: []
 
 })
-export class ProdutosModule { }
+export class ProdutosModule { } 
