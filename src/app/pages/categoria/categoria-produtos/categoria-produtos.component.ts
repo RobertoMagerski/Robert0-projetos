@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-categoria-produtos',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./categoria-produtos.component.css']
 })
 export class CategoriaProdutosComponent implements OnInit {
+  @Input() produtos: string ='';
+  
 
   constructor() { }
 

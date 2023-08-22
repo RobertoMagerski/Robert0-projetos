@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaProdutosComponent implements OnInit {
 
-  // produtos: any[] = [];
+  //produtos: any[] = [];
 
   produtos = [
     {
